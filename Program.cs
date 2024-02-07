@@ -25,7 +25,9 @@ internal class program
                 Console.WriteLine(e1.Equals(e8));
         */
         Console.WriteLine(e7.ToString());
-
+        Groupe groupe = new Groupe();
+        groupe.AjouterPersonne(e1);
+        groupe.AjouterPersonne(new Etudiant("ACB", "efg", "10-12-2000"));
 
 
     }
